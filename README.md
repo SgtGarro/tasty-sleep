@@ -2,6 +2,7 @@
 
 This challenge demonstrates the abilities and the level of knowledge with the tools of HTML, CSS AND JavaScript.
 > [**Link to Deploy**](https://sgtgarro.github.io/tasty-sleep/)
+
 > [**Link to Figma**](https://www.figma.com/file/f0aqyN9hyzZV21WhzLXps6/Untitled?node-id=0%3A1&t=IFIAkyAsUposIozs-1)
 
 ## 90 minute rule
