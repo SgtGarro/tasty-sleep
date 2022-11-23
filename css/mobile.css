@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Ubuntu", sans-serif;
+}
+:root {
+  --font-primary: #1c484a;
+  --font-secundary: #829fa0;
+  --light-sky: #e9feff;
+  --sky: #b1f4f8;
+}
+body {
+  background-color: var(--light-sky);
+}
+.info-container {
+  width: 90%;
+  margin: 60px auto 0;
+  text-align: center;
+  max-width: 440px;
+}
+.info-container__title {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--font-primary);
+}
+.info-container__desc {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--font-secundary);
+}
+.info-container__desc a {
+  color: #183ec6;
+}
+.info-container__subtitle {
+  margin-top: 40px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: var(--font-primary);
+}
+.info-container__button {
+  display: inline-block;
+  background-color: var(--font-primary);
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+.schedule-container {
+  width: 90%;
+  max-width: 360px;
+  min-height: 400px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  background-color: white;
+  box-shadow: 2px 1px 20px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#hoursList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+#hoursList li {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  padding: 12px 0;
+  background-color: #f0f5f9;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--font-primary);
+}
